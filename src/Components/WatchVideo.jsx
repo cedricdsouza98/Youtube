@@ -5,7 +5,6 @@ import { useSearchParams } from "react-router";
 
 const WatchVideo = () => {
   const [searchParams] = useSearchParams();
-  console.log(searchParams.get("v"));
 
   const dispatch = useDispatch();
   useEffect(() => {
